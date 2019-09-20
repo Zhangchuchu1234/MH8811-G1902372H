@@ -1,0 +1,24 @@
+Last login: Fri Sep 20 19:13:21 on ttys000
+(base) zhangchuchu:~ zhangchuchu$ cd Desktop
+(base) zhangchuchu:Desktop zhangchuchu$ mkdir MH8811_02
+(base) zhangchuchu:Desktop zhangchuchu$ cd MH8811_02
+(base) zhangchuchu:MH8811_02 zhangchuchu$ touch 'my file.py'
+(base) zhangchuchu:MH8811_02 zhangchuchu$ cd ..
+(base) zhangchuchu:Desktop zhangchuchu$ rm -rf MH8811_02
+(base) zhangchuchu:Desktop zhangchuchu$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
