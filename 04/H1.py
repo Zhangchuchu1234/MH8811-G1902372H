@@ -65,7 +65,7 @@ def my_sample_variance(list):
 
     sum = 0
     for number in list:
-        sum = sum+math.pow((number-my_average(list)),2)
+        sum = sum+ (number-my_average(list))**2
     s_v = sum/(len(list)-1)
 
     return s_v
