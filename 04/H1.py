@@ -11,6 +11,7 @@ def my_min(list):
             minimum = number
     return minimum
 
+
 def my_max(list):
 
     maximum = None
