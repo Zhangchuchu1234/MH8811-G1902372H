@@ -86,6 +86,7 @@ def getFileLines(fname) :
 myList = getFileLines("MH8811-04-Data.csv")
 myList = list(map(int, myList))
 
+
 print("The list is {}".format(myList))
 
 print("Minimum of this list is {0}".format(my_min(myList)))
