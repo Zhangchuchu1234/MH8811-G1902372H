@@ -1,5 +1,4 @@
 def my_min(list):
-
     minimum = None
     for number in list:
         if minimum is None:
@@ -11,7 +10,6 @@ def my_min(list):
 
 
 def my_max(list):
-
     maximum = None
     for number in list:
         if maximum is None:
