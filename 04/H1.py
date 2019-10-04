@@ -1,5 +1,3 @@
-import math
-
 def my_min(list):
 
     minimum = None
