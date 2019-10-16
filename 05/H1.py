@@ -88,6 +88,8 @@ def compare(s1, s2):
             for key in s1:
                 if key not in s2:
                     return False
+                if type(s1[key]) != type(s2[key]):
+                    return False
                 if s1[key] != s2[key]:
                     return False
             return True
@@ -131,3 +133,4 @@ if compare(data_structure, ldeserialize_data_structure):
     print("Success!")
 else:
     print("Not success!")
+
