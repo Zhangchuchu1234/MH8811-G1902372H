@@ -1,7 +1,7 @@
 from passwordGenerator import genPassword
 
 try:
-    password_length = int(input("Please input the password length, which is larger or equal to 4: "))
+    password_length = int(input("Please input the password length (larger or equal to 4): "))
 except:
     print("Input error!")
     exit()
