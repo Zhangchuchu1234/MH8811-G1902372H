@@ -15,7 +15,7 @@ def genPassword(n):
         password = password + random.choice(chars)
 
 
-    password = ''.join(random.sample(password, n))
+    password = ''.join(random.sample(password,n))
 
     return password
 
